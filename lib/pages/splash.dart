@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
-import 'main.dart';
+import 'package:aoe2app/main.dart';
 
 //dependencies: splash
 class SplashPage extends StatefulWidget {
