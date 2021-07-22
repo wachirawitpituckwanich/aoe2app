@@ -9,6 +9,8 @@ import 'about.dart';
 import 'counter.dart';
 import 'package:aoe2app/lbapimanager.dart';
 
+
+
 Future<void> _launchURL(String url) async {
   if (await canLaunch(url))
     await launch(url);
@@ -23,7 +25,7 @@ class LeaderboardPg extends StatefulWidget {
 }
 
 class _LeaderboardPgState extends State<LeaderboardPg> {
-  Future<leaderboardaoe2> _leaderboard;
+  Future<Leaderboardaoe2> _leaderboard;
   @override
   void initState() {
     _leaderboard = LbAPIManager().getData();
@@ -39,10 +41,7 @@ class _LeaderboardPgState extends State<LeaderboardPg> {
             children: <Widget>[
               DrawerHeader(
                 child: Text(
-                  'Age of Data',
-                  style: TextStyle(
-                    color: Colors.white,
-                  ),
+                  ''
                 ),
                 decoration: BoxDecoration(
                     color: Colors.blue,
@@ -108,7 +107,7 @@ class _LeaderboardPgState extends State<LeaderboardPg> {
           elevation: 0.0,
         ),
         body: Container(
-          child: FutureBuilder<leaderboardaoe2>(
+          child: FutureBuilder<Leaderboardaoe2>(
             future: _leaderboard,
             builder: (context, snapshot) {
               if (snapshot.hasData) {
@@ -132,6 +131,7 @@ class _LeaderboardPgState extends State<LeaderboardPg> {
                                         CrossAxisAlignment.start,
                                     children: <Widget>[
                                   Container(
+                                    padding: EdgeInsets.fromLTRB(5, 0, 0, 0),
                                     child: 
                                         Text(
                                         rank,

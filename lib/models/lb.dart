@@ -1,18 +1,18 @@
-class leaderboardaoe2 {
+class Leaderboardaoe2 {
   int total;
   int leaderboardId;
   int start;
   int count;
   List<Leaderboard> leaderboard;
 
-  leaderboardaoe2(
+  Leaderboardaoe2(
       {this.total,
       this.leaderboardId,
       this.start,
       this.count,
       this.leaderboard});
 
-  leaderboardaoe2.fromJson(Map<String, dynamic> json) {
+  Leaderboardaoe2.fromJson(Map<String, dynamic> json) {
     total = json['total'];
     leaderboardId = json['leaderboard_id'];
     start = json['start'];

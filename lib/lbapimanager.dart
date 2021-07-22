@@ -6,7 +6,7 @@ class LbAPIManager {
   String dataUrl =
       'https://aoe2.net/api/leaderboard?game=aoe2de&leaderboard_id=3&start=1&count=100';
 
-  Future<leaderboardaoe2> getData() async {
+  Future<Leaderboardaoe2> getData() async {
     var client = http.Client();
     var leaderboardlist ;
     try {
@@ -14,7 +14,7 @@ class LbAPIManager {
       if (response.statusCode == 200) {
         var jsonString = response.body;
         final jsonMap = json.decode(jsonString);
-        leaderboardlist =leaderboardaoe2.fromJson(jsonMap);
+        leaderboardlist =Leaderboardaoe2.fromJson(jsonMap);
       }
     } catch (Exception) {
       return leaderboardlist;

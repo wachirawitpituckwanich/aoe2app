@@ -16,10 +16,7 @@ class About extends StatelessWidget {
             children: <Widget>[
               DrawerHeader(
                 child: Text(
-                  'Age of Data',
-                  style: TextStyle(
-                    color: Colors.white,
-                  ),
+                  ''
                 ),
                 decoration: BoxDecoration(
                     color: Colors.redAccent,

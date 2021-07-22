@@ -10,6 +10,7 @@ import 'package:aoe2app/pages/about.dart';
 
 void main() {
   runApp(new MaterialApp(
+    theme: ThemeData(primarySwatch: Colors.grey),
     home: new SplashPage(),
   ));
 }
@@ -31,7 +32,7 @@ class _HomePageState extends State<HomePage> {
   Future<Welcome> _welcome;
   @override
   void initState() {
-    _welcome = API_Manager().getData();
+    _welcome = ApiManager().getData();
     super.initState();
   }
 
@@ -44,10 +45,7 @@ class _HomePageState extends State<HomePage> {
             children: <Widget>[
               DrawerHeader(
                 child: Text(
-                  'Age of Data',
-                  style: TextStyle(
-                    color: Colors.white,
-                  ),
+                  '',
                 ),
                 decoration: BoxDecoration(
                     color: Colors.blue,
