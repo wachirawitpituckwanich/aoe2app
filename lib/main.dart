@@ -10,6 +10,7 @@ import 'package:aoe2app/pages/about.dart';
 
 void main() {
   runApp(new MaterialApp(
+    debugShowCheckedModeBanner: false,
     theme: ThemeData(primarySwatch: Colors.grey),
     home: new SplashPage(),
   ));
