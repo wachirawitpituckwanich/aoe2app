@@ -11,7 +11,7 @@
  This application is not affiliated with Age of Empires II©. all informations and materials are belong to it's original owners.
 
  Icons are provided by svgrepo.com
- 
+
 
 # User manual
 ## Application's mainpage
@@ -21,8 +21,13 @@ upon opening this application, the application will display Age of Empires 2 civ
 
 ## Application's drawerbar
 upon tapping the menu icon. the application will display drawerbar which will helps navigate through the application
+
 ![ScreenShot](/screenshot/aoe2-sidebar1.jpg?raw=true)
+
+
 ![ScreenShot](/screenshot/aoe2-sidebar2.jpg?raw=true)
+
+
 ### About
 About page will display informations and creator of the application
 
