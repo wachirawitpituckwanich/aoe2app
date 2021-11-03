@@ -13,30 +13,30 @@
 # User manual
 ## Application's mainpage
 upon opening this application, the application will display Age of Empires 2 civilization datas from the API including: civilization name, civilization type and civilization bonus
-![Alt text](/aoe2app/screenshot/aoe2app-main.jpg?raw=true)
+![ScreenShot](/aoe2app/screenshot/aoe2app-main.jpg?raw=true)
 
 ## Application's drawerbar
 upon tapping the menu icon. the application will display drawerbar which will helps navigate through the application
-![Alt text](/aoe2app/screenshot/aoe2-sidebar1.jpg?raw=true)
-![Alt text](/aoe2app/screenshot/aoe2-sidebar2.jpg?raw=true)
+![ScreenShot](/aoe2app/screenshot/aoe2-sidebar1.jpg?raw=true)
+![ScreenShot](/aoe2app/screenshot/aoe2-sidebar2.jpg?raw=true)
 ### About
 About page will display informations and creator of the application
-![Alt text](/aoe2app/screenshot/aoe2-about.jpg?raw=true)
+![ScreenShot](/aoe2app/screenshot/aoe2-about.jpg?raw=true)
 ### Buy Age of Empires 2: Definitive Edition
 this menu item will redirect to Age of Empires 2: Definitive Edition page on steam
-![Alt text](/aoe2app/screenshot/aoe2-steam.jpg?raw=true)
+![ScreenShot](/aoe2app/screenshot/aoe2-steam.jpg?raw=true)
 ### Civilization data
 Civilization data will navigate you to the civilization data page 
-![Alt text](/aoe2app/screenshot/aoe2app-main.jpg?raw=true)
+![ScreenShot](/aoe2app/screenshot/aoe2app-main.jpg?raw=true)
 ### Leaderboard
 Leaderboard will navigate you to the leaderboard page which will display top 100 1 versus 1 ranked match players 
-![Alt text](/aoe2app/screenshot/aoe2-ld.jpg?raw=true)
+![ScreenShot](/aoe2app/screenshot/aoe2-ld.jpg?raw=true)
 ### Unit counter
 Leaderboard will navigate you to the unit counter page which will display data about unit counters in Age of Empires 2
-![Alt text](/aoe2app/screenshot/aoe2-counter.jpg?raw=true)
+![ScreenShot](/aoe2app/screenshot/aoe2-counter.jpg?raw=true)
 ### Exit
 exit the application
 
 ## Troubleshooting
 if the application display a circular progress indicator for too long. this implies that either you lost connection to the internet or the API server is down. try reconnecting the internet or wait for a few hours.
-![Alt text](/aoe2app/screenshot/aoe2-refresh.jpg?raw=true)
+![ScreenShot](/aoe2app/screenshot/aoe2-refresh.jpg?raw=true)
