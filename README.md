@@ -9,7 +9,9 @@
 ## Disclaimer
 
  This application is not affiliated with Age of Empires II©. all informations and materials are belong to it's original owners.
+
  Icons are provided by svgrepo.com
+ 
 
 # User manual
 ## Application's mainpage
