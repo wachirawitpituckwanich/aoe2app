@@ -61,7 +61,7 @@ class _LeaderboardPgState extends State<LeaderboardPg> {
                 },
               ),
               ListTile(
-                title: Text('Data'),
+                title: Text('Civilization data'),
                 leading: Icon(Icons.insert_chart),
                 onTap: () {
                   Navigator.pop(context);

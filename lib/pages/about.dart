@@ -25,7 +25,7 @@ class About extends StatelessWidget {
                         fit: BoxFit.contain)),
               ),
               ListTile(
-                title: Text('Data'),
+                title: Text('Civilization data'),
                 leading: Icon(Icons.insert_chart),
                 onTap: () {
                   Navigator.pop(context);
